@@ -30,15 +30,15 @@ session_start();
       </form>
 
             </div> 
-
-</div>
-    
-    <?php 
+  <?php 
       if(isset($_SESSION['feedback'])) {
         echo "<p class='Glink'>{$_SESSION['feedback']} </p>";
       unset($_SESSION['feedback']);
     }
     ?>
+</div>
+    
+  
 
 <div class="footer">
   <p>Autorska prava 2020. Sva prava pridržana.    
