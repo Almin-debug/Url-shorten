@@ -30,15 +30,18 @@ session_start();
       </form>
 
             </div> 
-  <?php 
+ <?php 
       if(isset($_SESSION['feedback'])) {
-        echo "<p class='Glink'>{$_SESSION['feedback']} </p>";
+        echo "<p class='Glink'> {$_SESSION['feedback']}</p>";
+        echo "  <button data-clipboard-target='#input1'>COPY</button>";
       unset($_SESSION['feedback']);
-    }
+      }
     ?>
+       
+     
 </div>
     
-  
+   
 
 <div class="footer">
   <p>Autorska prava 2020. Sva prava pridržana.    
@@ -47,6 +50,13 @@ session_start();
     <a target='_blank' href="https://www.facebook.com/almin.hebibovic1"> <i class="fa fa-facebook" aria-hidden="true"></i></a> </p>
     
 </div>
+
+ 
+   
+ 
+    
+<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
