@@ -32,8 +32,7 @@ session_start();
             </div> 
  <?php 
       if(isset($_SESSION['feedback'])) {
-        echo "<p class='Glink'> {$_SESSION['feedback']}</p>";
-        echo "  <button data-clipboard-target='#input1'>COPY</button>";
+        echo "<p class='Glink'> {$_SESSION['feedback']} <button data-clipboard-target='#input1'>Kopiraj</button></p>";
       unset($_SESSION['feedback']);
       }
     ?>
