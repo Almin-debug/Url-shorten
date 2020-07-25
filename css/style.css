@@ -1,0 +1,59 @@
+body { 
+    background: url(../slike/background3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    font: 0.9em Thaoma, sans-serif;
+    padding-top: 15%;
+    
+  }
+
+
+.title {
+    font-weight: normal;
+}
+
+.home {
+    width: 100%;
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #9900cc;
+    opacity: 0.8;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+input[type="url"] {
+    width: 300px;
+}
+
+.Glink {
+    
+    background: #ff6600;
+    width: 57%;
+    margin: 2% auto;
+    border: 1px solid black;
+    border-radius: 5%;
+    font-size: 1.1em;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+    background-color: rgb(204, 0, 255);
+    color: white;
+    text-align: center;
+    
+  }
